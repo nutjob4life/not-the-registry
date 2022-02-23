@@ -1,0 +1,18 @@
+{
+   "folders" : [
+      {
+         "file_exclude_patterns" : [
+            "*.sublime-*",
+            "*.log"
+         ],
+         "folder_exclude_patterns" : [
+            "venv",
+            "dist",
+            "build",
+            "*.egg-info",
+            "__pycache__",
+         ],
+         "path" : "."
+      }
+   ]
+}

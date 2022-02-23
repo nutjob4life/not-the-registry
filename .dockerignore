@@ -1,0 +1,10 @@
+*.sublime-*
+.DS_Store
+.git
+.gitignore
+build
+dist
+docker-compose.yaml
+docs
+Jenkinsfile
+venv
