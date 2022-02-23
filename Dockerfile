@@ -1,7 +1,7 @@
 FROM python:3.10.2-alpine3.15
 
 WORKDIR /usr/src/app
-COPY requirements.txt server.py .
+COPY requirements.txt server.py ./
 RUN \
     pip install --quiet --requirement requirements.txt &&\
     :
