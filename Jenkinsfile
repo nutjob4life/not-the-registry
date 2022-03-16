@@ -1,5 +1,7 @@
 pipeline {
-    agent 'pds-expo'
+    agent {
+        node('pds-expo')
+    }
     options {
         skipStagesAfterUnstable()
     }
